@@ -15,7 +15,7 @@ namespace TextOperations
 {
     string concat(string eka, string toka)
     {
-        return eka+toka;
+        return eka + toka;
     }
 }
 
@@ -24,6 +24,6 @@ using namespace TextOperations;
 
 int main()
 {
-    cout<<add(1, 3);
-    cout<<concat("\nHello ", "World");
+    cout << add(1, 3);
+    cout << concat("\nHello ", "World");
 }
